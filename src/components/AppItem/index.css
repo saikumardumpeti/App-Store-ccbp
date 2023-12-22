@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.list-item-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding-top: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  width: 45%;
+  max-width: 128px;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item-image {
+    max-width: 198px;
+    padding-top: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+}
+.list-item-image img {
+  height: 30px;
+  width: 50px;
+}
+.list-item-image p {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+}
